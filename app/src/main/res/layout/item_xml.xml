@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_height="30dp"
+        android:id="@+id/text"
+        android:textStyle="bold" />
+        android:text="TESTING"
+        android:textStyle="bold|italic"
+        android:textSize="@dimen/abc_text_size_large_material"<!--
+        android:theme="@style/Base.Theme.AppCompat.Dialog"
+        android:shadowColor="@color/abc_search_url_text"
+        android:textAppearance="@color/colorAccent"
+        android:textColor="#ff80cbc4"
+        android:textColorHighlight="#ff80cbc4" -->
+
+
+
+     <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+         android:text="OK"
+        android:layout_alignParentBottom="true"/>
+
+   </RelativeLayout>
+
+
+</RelativeLayout>
